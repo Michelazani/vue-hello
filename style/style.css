@@ -1,0 +1,30 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.red{
+    color: red;
+    margin: 3rem;
+}
+
+img{
+    width: 50%;
+}
+
+.margin-h2{
+    margin: 2rem;
+}
+

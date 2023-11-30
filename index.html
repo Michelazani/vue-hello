@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    
+    <script src="https://unpkg.com/vue@3"></script>
+
+    <div id="app" class="flex">
+
+        <h1 v-bind:class="myClassH1">
+            {{message}}
+        </h1>
+        <img  v-bind:src="picture" alt="">
+        <h2 v-bind:class="myClassH2">
+            {{otherMessage}} &hearts;
+        </h2>
+       
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
